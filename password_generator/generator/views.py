@@ -9,8 +9,8 @@ def home(request):
     return render(request, 'generator/home.html')
 
 
-def option(request):
-    return render(request, 'generator/option.html')
+def description(request):
+    return render(request, 'generator/description.html')
 
 
 def password(request):
