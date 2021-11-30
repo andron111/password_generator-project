@@ -9,6 +9,10 @@ def home(request):
     return render(request, 'generator/home.html')
 
 
+def option(request):
+    return render(request, 'generator/option.html')
+
+
 def password(request):
     characters = list('abcdefghijklmnopqrstuvwxyz')
 
